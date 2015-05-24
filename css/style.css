@@ -2,6 +2,8 @@
 ******************************************************************/
 body {
   background: #f9f9f9;
+  background: url('../img/background-city-road-street-buildings.jpg') 0 0 no-repeat;
+  background-size: cover;
   font-size: 16px;
   font-family: sans-serif;
   line-height: 1.5em;
@@ -33,12 +35,19 @@ p {
 
 /* Layout
 ******************************************************************/
+
+/* Container */
 .container {
   width: 900px;
   padding: 30px;
   margin: 0 auto;
-  background: #fff;
+  background-color: rgba(255, 255, 255, .9);
   box-shadow: 0px 0px 20px #ccc;
+}
+
+/* Main Title */
+.main-title {
+  text-align: center;
 }
 
 
